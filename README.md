@@ -1,22 +1,52 @@
-# Soroban Project
+# NFT Rental Platform (Soroban Smart Contract)
 
-## Project Structure
+## 📌 Project Description
+This project is a decentralized NFT Rental Platform built using Soroban (Stellar Smart Contracts). It allows NFT owners to rent out their NFTs to other users for a fixed duration, enabling new utility for NFTs beyond simple ownership.
 
-This repository uses the recommended structure for a Soroban project:
+## ⚙️ What it does
+The smart contract enables:
+- NFT owners to list their NFTs for rent
+- Users to rent NFTs for a specified time period
+- Tracking of rental status (who is renting and until when)
 
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+This creates a trustless rental system powered entirely by blockchain logic.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## 🚀 Features
+
+- 🔐 **Secure Ownership Validation**
+  - Only NFT owners can list their NFTs
+
+- 📅 **Time-Based Rental System**
+  - Rentals expire automatically based on blockchain timestamp
+
+- 💸 **Flexible Pricing**
+  - Owners can set rental price per day
+
+- 📊 **On-Chain Rental Tracking**
+  - Stores renter and rental duration on-chain
+
+- ⚡ **Lightweight & Gas Efficient**
+  - Designed with minimal storage and computation
+
+## 🔗 Deployed Smart Contract Link
+
+XXX
+https://stellar.expert/explorer/testnet/tx/c5a73b954c03d9f6f923ca1062ac5fa13c3a5b89aeb0d35a6dfefe334a76853a
+<img width="1920" height="1080" alt="Screenshot 2026-03-19 141731" src="https://github.com/user-attachments/assets/0e6aa334-cbe2-45a2-a933-553951f44de8" />
+
+## 🛠️ Tech Stack
+
+- Soroban SDK (Rust)
+- Stellar Blockchain
+
+## 📈 Future Improvements
+
+- Payment handling (XLM/token transfers)
+- NFT standard integration (SEP-41 / custom)
+- Collateral system for renters
+- Early return & refund logic
+- Marketplace UI (React frontend)
+
+## 📜 License
+
+MIT License

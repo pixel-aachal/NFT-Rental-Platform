@@ -50,3 +50,7 @@ https://stellar.expert/explorer/testnet/tx/c5a73b954c03d9f6f923ca1062ac5fa13c3a5
 ## 📜 License
 
 MIT License
+
+## ui_screenshot:
+<img width="1913" height="911" alt="image" src="https://github.com/user-attachments/assets/cb938a89-de44-4acb-a234-429c540707fc" />
+

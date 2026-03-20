@@ -54,3 +54,8 @@ MIT License
 ## ui_screenshot:
 <img width="1913" height="911" alt="image" src="https://github.com/user-attachments/assets/cb938a89-de44-4acb-a234-429c540707fc" />
 
+## contract-id:CDQ3LVN3KCHKPQ6J5S7YXHHLIDTM46OB6AOPGDDLE74WXYXIVRLHEBED
+
+## Author:
+Aachal Gupta
+
